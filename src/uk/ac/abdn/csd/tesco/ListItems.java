@@ -28,7 +28,7 @@ public class ListItems extends Activity{
 	
 	// for tesco this url gets you logged in and returns sessionkey to use 
 	// in followup requests
-	String loginURL = "https://secure.techfortesco.com/groceryapi/RESTService.aspx?COMMAND=LOGIN&EMAIL=&PASSWORD=&DEVELOPERKEY=TZCEim28BCqfNHIYCtPJ&APPLICATIONKEY=75765B12514E6B7960DC";
+	String loginURL = "https://secure.techfortesco.com/groceryapi/RESTService.aspx?COMMAND=LOGIN&EMAIL=&PASSWORD=&DEVELOPERKEY=<your developer key>&APPLICATIONKEY=<your app key>";
 	String startURL = "http://www.techfortesco.com/groceryapi/RESTService.aspx?COMMAND=PRODUCTSEARCH&SESSIONKEY=";
 		
 	
